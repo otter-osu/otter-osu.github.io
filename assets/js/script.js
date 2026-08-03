@@ -10,8 +10,10 @@
 // the page is ever a dead link. Once you create the forms, paste the
 // forms.gle URLs here and the buttons switch over automatically.
 const CONTACT_EMAIL   = "wu.6489@osu.edu";
-const RSVP_FORM_URL   = "";   // e.g. "https://forms.gle/abc123"  — RSVP for a single talk
-const SUBSCRIBE_URL   = "";   // e.g. "https://forms.gle/xyz789"  — monthly announcement list
+// One form serves both: it asks whether you're RSVPing, subscribing, or both,
+// so every response lands in a single sheet. Swap in separate URLs any time.
+const RSVP_FORM_URL   = "https://forms.gle/JmU5eTyKLfTXMYbt7";
+const SUBSCRIBE_URL   = "https://forms.gle/JmU5eTyKLfTXMYbt7";
 
 const REPO_URL = "https://github.com/otter-osu/otter-osu.github.io";
 
