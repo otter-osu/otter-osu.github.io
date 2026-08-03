@@ -54,7 +54,12 @@
     </div>
   </div>
 
-  <aside class="next-talk" aria-label="Next public talk">
+  <aside class="next-talk" aria-label="Next public talk"
+         data-title="OTTER Public Talk — September"
+         data-date="2026-09-24"
+         data-time="16:00"
+         data-duration="90"
+         data-location="Classroom TBA, The Ohio State University">
     <div class="next-talk-label">Next Public Talk</div>
     <h3 class="next-talk-topic">Topic to be announced</h3>
     <ul class="next-talk-meta">
@@ -62,7 +67,10 @@
       <li>Time &amp; classroom TBA</li>
       <li>Led by TBA</li>
     </ul>
-    <a href="#" class="btn-rsvp" data-rsvp>RSVP →</a>
+    <div class="next-talk-actions">
+      <a href="#" class="btn-rsvp" data-rsvp>RSVP →</a>
+      <button type="button" class="btn-link btn-sm btn-ics" data-ics>Add to calendar</button>
+    </div>
   </aside>
 </section>
 
@@ -125,6 +133,7 @@
           </div>
           <span class="schedule-actions">
             <a href="#" class="btn-link btn-sm" data-rsvp>RSVP</a>
+            <button type="button" class="btn-link btn-sm btn-ics" data-ics>Add to calendar</button>
           </span>
         </li>
 
@@ -141,6 +150,7 @@
           </div>
           <span class="schedule-actions">
             <a href="#" class="btn-link btn-sm" data-rsvp>RSVP</a>
+            <button type="button" class="btn-link btn-sm btn-ics" data-ics>Add to calendar</button>
           </span>
         </li>
 
@@ -157,6 +167,7 @@
           </div>
           <span class="schedule-actions">
             <a href="#" class="btn-link btn-sm" data-rsvp>RSVP</a>
+            <button type="button" class="btn-link btn-sm btn-ics" data-ics>Add to calendar</button>
           </span>
         </li>
       </ul>
@@ -223,7 +234,7 @@
       <div class="join-block">
         <h3>For everyone else</h3>
         <p>Subscribe to the monthly announcement and we'll send each talk's topic, time, and location.</p>
-        <a href="#" class="btn-main" data-rsvp>Subscribe →</a>
+        <a href="#" class="btn-main" data-subscribe>Subscribe →</a>
       </div>
     </div>
   </div>

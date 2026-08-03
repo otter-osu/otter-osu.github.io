@@ -277,7 +277,15 @@ a:focus-visible,button:focus-visible,.tab:focus-visible{
 .schedule-body p{
   font-family:var(--body);font-size:15px;color:var(--ink-faded);line-height:1.5;
 }
-.schedule-actions{display:flex;align-items:center}
+.schedule-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+
+/* "Add to calendar" is a <button>: strip the UA border that .btn-link,
+   which only sets border-bottom, leaves behind */
+.btn-ics{border:none;border-bottom:1.5px solid transparent;padding:0 0 2px}
+
+/* the hero's RSVP is a full-width block, so its calendar link sits under it */
+.next-talk-actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.next-talk-actions .btn-rsvp{width:100%}
 
 .empty-state{
   font-family:var(--body);font-size:16.5px;font-style:italic;
