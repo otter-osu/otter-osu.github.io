@@ -315,6 +315,10 @@ a:focus-visible,button:focus-visible,.tab:focus-visible{
   font-family:var(--display);font-size:22px;font-weight:500;
   color:var(--ink);letter-spacing:-.005em;
 }
+.advisor-role{
+  font-family:var(--body);font-size:15px;color:var(--ink-faded);
+  line-height:1.5;margin:4px 0 6px;
+}
 
 /* ============================================================
    JOIN
